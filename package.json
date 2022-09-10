@@ -1,0 +1,29 @@
+{
+  "name": "jmg",
+  "version": "1.0.0",
+  "description": "Merge multiple json file into signle file ",
+  "main": "index.js",
+  "bin": {
+    "jmg": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdciabdul/jmg.git"
+  },
+  "keywords": [
+    "json",
+    "merger"
+  ],
+  "author": "fdciabdul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fdciabdul/jmg/issues"
+  },
+  "homepage": "https://github.com/fdciabdul/jmg#readme"
+}
