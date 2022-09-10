@@ -1,12 +1,11 @@
-// call from global 
-'use strict';
+#!/usr/bin/env node
 const { argv } = require('process');
 const merger  = require('../lib/index.js');
 
 // send help command
 
 
-if (argv.length < 4) {
+if (argv.length < 3) {
     console.log('Usage: json-merger <folder> <output>');
     return;
 }
