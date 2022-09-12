@@ -10,7 +10,7 @@ var merger = require('../lib/index.js');
 
 
 if (argv.length < 3) {
-    console.log('Usage: json-merger <folder> <output>');
+    console.log('Usage: jmg <folder> <output>');
 }
 
 // get folder and output from command line
